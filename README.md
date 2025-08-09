@@ -19,7 +19,7 @@ A simple and intuitive Todo application built with Django, allowing users to man
 
 ```bash
 git clone https://github.com/sameer9860/Todo-App.git
-cd Todo-App
+cd Todo-App(if you are in another dir)
 ````
 
 ### 2. Set Up Virtual Environment
