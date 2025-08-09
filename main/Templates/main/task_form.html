@@ -1,0 +1,13 @@
+{% extends 'main/base.html' %}
+
+{% block title %}Task Form - To-Do App{% endblock %}
+
+{% block content %}
+<h2 class="mb-4">Create or Edit Task</h2>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button class="btn btn-success" type="submit">Save Task</button>
+    <a class="btn btn-secondary" href="{% url 'task_list' %}">Back to Home</a>
+</form>
+{% endblock %}
